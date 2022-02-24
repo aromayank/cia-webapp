@@ -1,0 +1,1040 @@
+{
+  "creditProfile": [
+    {
+      "headerRecord": [
+        {
+          "reportDate": "080619",
+          "reportTime": "062808",
+          "preamble": "TTX2",
+          "versionNo": "07",
+          "mKeywordLength": "13",
+          "mKeywordText": "07162019TEST5",
+          "y2kReportedDate": "08062019"
+        }
+      ],
+      "addressInformation": [
+        {
+          "censusGeoCode": "1397011",
+          "city": "ENCINO",
+          "countyCode": "037",
+          "dwellingType": "M",
+          "firstReportedDate": "01092009",
+          "lastReportingSubscriberCode": "2222222",
+          "lastUpdatedDate": "04202018",
+          "source": "1",
+          "state": "CA",
+          "streetName": "VENTURA",
+          "streetPrefix": "16255",
+          "streetSuffix": "BLVD",
+          "timesReported": "00",
+          "unitId": "1200",
+          "unitType": "STE",
+          "zipCode": "914362320"
+        },
+        {
+          "censusGeoCode": "0004013",
+          "city": "PENN VALLEY",
+          "countyCode": "057",
+          "dwellingType": "S",
+          "firstReportedDate": "03012001",
+          "lastUpdatedDate": "02162016",
+          "source": "1",
+          "state": "CA",
+          "streetName": "STRAWBERRY",
+          "streetPrefix": "13767",
+          "streetSuffix": "CIR",
+          "timesReported": "00",
+          "zipCode": "959469578"
+        },
+        {
+          "censusGeoCode": "7006001",
+          "city": "BEVERLY HILLS",
+          "countyCode": "037",
+          "dwellingType": "S",
+          "firstReportedDate": "05262003",
+          "lastUpdatedDate": "11132015",
+          "source": "1",
+          "state": "CA",
+          "streetName": "HILLCREST",
+          "streetPrefix": "1174 N",
+          "streetSuffix": "RD",
+          "timesReported": "00",
+          "zipCode": "902102615"
+        }
+      ],
+      "consumerIdentity": {
+        "name": [
+          {
+            "firstName": "KATHLEEN",
+            "surname": "ALUMIT",
+            "type": "A"
+          },
+          {
+            "firstName": "KATHLEEN",
+            "middleName": "K",
+            "surname": "NATIUDAD",
+            "type": "S"
+          }
+        ],
+        "phone": [
+          {
+            "number": "3102733681",
+            "source": "U"
+          },
+          {
+            "number": "3102751669",
+            "source": "U"
+          }
+        ]
+      },
+      "employmentInformation": [
+        {
+          "firstReportedDate": "09072006",
+          "lastUpdatedDate": "09072006",
+          "name": "NASDAQ STOCK MARKET",
+          "source": "2"
+        }
+      ],
+      "fraudShield": [
+        {
+          "addressCount": "0000",
+          "addressDate": "05012019",
+          "addressErrorCode": "0",
+          "fraudShieldIndicators": {
+            "indicator": [
+              "01",
+              "03",
+              "06",
+              "12",
+              "17"
+            ]
+          },
+          "sic": "81110300",
+          "socialCount": "0000",
+          "socialDate": "05012019",
+          "socialErrorCode": "0",
+          "ssnFirstPossibleIssuanceYear": "1954",
+          "ssnLastPossibleIssuanceYear": "1956",
+          "text": "CKPT: LEGAL SERVICE ON FACS+ FILE/KARNO SCHWARTZ & FRIEDMAN/16255 VENTURA BLVD STE 1200/ENCINO CA 91436/818.981.3400",
+          "type": "04"
+        }
+      ],
+      "informationalMessage": [
+        {
+          "messageNumber": "57",
+          "messageNumberDetailed": "1300",
+          "messageText": "CLARITY DATA NOT RETRIEVED FOR THE MODEL DUE TO SSN/ITIN MISMATCH"
+        }
+      ],
+      "inquiry": [
+        {
+          "amount": "UNKNOWN",
+          "date": "04282016",
+          "kob": "BC",
+          "subscriberCode": "2222222",
+          "subscriberName": "CAPITAL ONE BANK",
+          "terms": "UNK",
+          "type": "31"
+        }
+      ],
+      "ofac": {
+        "messageNumber": "1202",
+        "messageText": "OFAC NO RECORD FOUND"
+      },
+      "summaries": [
+        {
+          "summaryType": "Profile Summary",
+          "attributes": [
+            {
+              "id": "disputedAccountsExcluded",
+              "value": "000"
+            },
+            {
+              "id": "publicRecordsCount",
+              "value": "000"
+            },
+            {
+              "id": "installmentBalance",
+              "value": "00000000"
+            },
+            {
+              "id": "realEstateBalance",
+              "value": "N/A"
+            },
+            {
+              "id": "revolvingBalance",
+              "value": "00001245"
+            },
+            {
+              "id": "pastDueAmount",
+              "value": "00000000"
+            },
+            {
+              "id": "monthlyPayment",
+              "value": "00000072"
+            },
+            {
+              "id": "monthlyPaymentPartialFlag"
+            },
+            {
+              "id": "realEstatePayment",
+              "value": "N/A"
+            },
+            {
+              "id": "realEstatePaymentPartialFlag"
+            },
+            {
+              "id": "revolvingAvailablePercent",
+              "value": "024"
+            },
+            {
+              "id": "revolvingAvailablePartialFlag"
+            },
+            {
+              "id": "totalInquiries",
+              "value": "001"
+            },
+            {
+              "id": "inquiriesDuringLast6Months",
+              "value": "000"
+            },
+            {
+              "id": "totalTradeItems",
+              "value": "010"
+            },
+            {
+              "id": "paidAccounts",
+              "value": "005"
+            },
+            {
+              "id": "satisfactoryAccounts",
+              "value": "008"
+            },
+            {
+              "id": "nowDelinquentDerog",
+              "value": "001"
+            },
+            {
+              "id": "wasDelinquentDerog",
+              "value": "001"
+            },
+            {
+              "id": "oldestTradeDate",
+              "value": "08251993"
+            },
+            {
+              "id": "delinquencies30Days",
+              "value": "01"
+            },
+            {
+              "id": "delinquencies60Days",
+              "value": "01"
+            },
+            {
+              "id": "delinquencies90to180Days",
+              "value": "02"
+            },
+            {
+              "id": "derogCounter",
+              "value": "01"
+            }
+          ]
+        }
+      ],
+      "riskModel": [
+        {
+          "evaluation": "P",
+          "modelIndicator": "RP",
+          "score": "0589",
+          "scoreFactors": [
+            {
+              "importance": "1",
+              "code": "11"
+            },
+            {
+              "importance": "2",
+              "code": "99"
+            },
+            {
+              "importance": "3",
+              "code": "33"
+            },
+            {
+              "importance": "4",
+              "code": "56"
+            }
+          ]
+        }
+      ],
+      "ssn": [
+        {
+          "number": "999999999",
+          "ssnIndicators": "YYYYYYYYY"
+        }
+      ],
+      "statement": [
+        {
+          "dateReported": "04122017",
+          "statementText": "27& 04-12-17 2499947 ID SECURITY ALERT: FRAUDULENT APPLICATIONS MAY BE SUBMITTED IN MY NAME OR MY IDENTITY MAY HAVE BEEN USED WITHOUT MY CONSENT TO FRAUDULENTLY OBTAIN GOODS OR SERVICES. DO NOT EXTEND CREDIT WITHOUT FIRST VERIFYING THE IDENTITY OF THE APPLICANT. I CAN BE REACHED AT - - . THIS SECURITY ALERT WILL BE MAINTAINED FOR 1 YEAR BEGINNING 04-12-17.",
+          "type": "27"
+        }
+      ],
+      "tradeline": [
+        {
+          "accountNumber": "0000000000000000000",
+          "accountType": "43",
+          "amount1": "00005000",
+          "amount1Qualifier": "C",
+          "balanceDate": "06302018",
+          "delinquencies30Days": "00",
+          "delinquencies60Days": "00",
+          "delinquencies90to180Days": "00",
+          "derogCounter": "01",
+          "ecoa": "0",
+          "enhancedPaymentData": {
+            "chargeoffAmount": "0000005000",
+            "enhancedAccountType": "43",
+            "enhancedPaymentHistory84": "L",
+            "enhancedPaymentStatus": "97",
+            "enhancedTerms": "010",
+            "firstDelinquencyDate": "06012018",
+            "paymentLevelDate": "06012018"
+          },
+          "evaluation": "N",
+          "kob": "BB",
+          "monthsHistory": "01",
+          "openDate": "07112014",
+          "openOrClosed": "C",
+          "paymentHistory": "9",
+          "revolvingOrInstallment": "I",
+          "status": "97",
+          "statusDate": "06012018",
+          "subscriberCode": "2222222",
+          "subscriberName": "KEY BANK",
+          "terms": "010"
+        },
+        {
+          "accountNumber": "000000000",
+          "accountType": "18",
+          "amount1": "00003000",
+          "amount1Qualifier": "L",
+          "amount2": "00000088",
+          "amount2Qualifier": "H",
+          "balanceAmount": "00000000",
+          "balanceDate": "02272009",
+          "delinquencies30Days": "00",
+          "delinquencies60Days": "00",
+          "delinquencies90to180Days": "00",
+          "derogCounter": "00",
+          "ecoa": "1",
+          "enhancedPaymentData": {
+            "complianceCondition": "XA",
+            "creditLimitAmount": "0000003000",
+            "enhancedAccountCondition": "A3",
+            "enhancedAccountType": "18",
+            "enhancedPaymentHistory84": "B000000000CCC",
+            "enhancedPaymentStatus": "11",
+            "enhancedSpecialComment": "19",
+            "enhancedTerms": "REV",
+            "highBalanceAmount": "0000000088",
+            "paymentLevelDate": "02012009"
+          },
+          "evaluation": "N",
+          "kob": "BC",
+          "monthsHistory": "25",
+          "openDate": "03012007",
+          "openOrClosed": "C",
+          "paymentHistory": "B000000000CCC",
+          "revolvingOrInstallment": "R",
+          "specialComment": "19",
+          "status": "11",
+          "statusDate": "02012009",
+          "subscriberCode": "2222222",
+          "subscriberName": "FIRST USA BANK",
+          "terms": "REV"
+        },
+        {
+          "accountNumber": "0000000000",
+          "accountType": "07",
+          "amount1": "00000084",
+          "amount1Qualifier": "H",
+          "balanceAmount": "00000000",
+          "balanceDate": "09162008",
+          "delinquencies30Days": "00",
+          "delinquencies60Days": "00",
+          "delinquencies90to180Days": "00",
+          "derogCounter": "00",
+          "ecoa": "1",
+          "enhancedPaymentData": {
+            "creditLimitAmount": "UNKNOWN",
+            "enhancedAccountCondition": "A3",
+            "enhancedAccountType": "07",
+            "enhancedPaymentHistory84": "B---------------------------",
+            "enhancedPaymentStatus": "11",
+            "enhancedSpecialComment": "18",
+            "enhancedTerms": "REV",
+            "highBalanceAmount": "0000000084",
+            "paymentLevelDate": "09012008"
+          },
+          "evaluation": "N",
+          "kob": "DC",
+          "lastPaymentDate": "02052003",
+          "monthsHistory": "99",
+          "openDate": "01152000",
+          "openOrClosed": "C",
+          "paymentHistory": "B------------------------",
+          "revolvingOrInstallment": "R",
+          "specialComment": "18",
+          "status": "11",
+          "statusDate": "09012008",
+          "subscriberCode": "2222222",
+          "subscriberName": "GEMB/JCP",
+          "terms": "REV"
+        },
+        {
+          "accountNumber": "0000000000000000",
+          "accountType": "22",
+          "amount1": "00005125",
+          "amount1Qualifier": "O",
+          "balanceDate": "12042011",
+          "delinquencies30Days": "00",
+          "delinquencies60Days": "00",
+          "delinquencies90to180Days": "00",
+          "derogCounter": "00",
+          "ecoa": "1",
+          "enhancedPaymentData": {
+            "enhancedAccountCondition": "A2",
+            "enhancedAccountType": "22",
+            "enhancedPaymentHistory84": "BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "enhancedPaymentStatus": "11",
+            "enhancedTerms": "060",
+            "originalLoanAmount": "0000005125",
+            "paymentLevelDate": "12012011"
+          },
+          "evaluation": "P",
+          "kob": "FP",
+          "monthsHistory": "60",
+          "openDate": "12012006",
+          "openOrClosed": "C",
+          "paymentHistory": "BCCCCCCCCCCCCCCCCCCCCCCCC",
+          "revolvingOrInstallment": "I",
+          "status": "12",
+          "statusDate": "12012011",
+          "subscriberCode": "2222222",
+          "subscriberName": "AMERICAN GENERAL FINAN",
+          "terms": "060"
+        },
+        {
+          "accountNumber": "000000000000",
+          "accountType": "18",
+          "amount1": "UNKNOWN",
+          "balanceDate": "09282011",
+          "delinquencies30Days": "00",
+          "delinquencies60Days": "00",
+          "delinquencies90to180Days": "00",
+          "derogCounter": "00",
+          "ecoa": "1",
+          "enhancedPaymentData": {
+            "enhancedAccountCondition": "A2",
+            "enhancedAccountType": "18",
+            "enhancedPaymentHistory84": "B----------B00000000000000000000000000000000000000000000000",
+            "enhancedPaymentStatus": "11",
+            "enhancedSpecialComment": "18",
+            "enhancedTerms": "REV",
+            "paymentLevelDate": "10012010"
+          },
+          "evaluation": "N",
+          "kob": "BC",
+          "monthsHistory": "59",
+          "openDate": "11272006",
+          "openOrClosed": "C",
+          "paymentHistory": "B----------B0000000000000",
+          "revolvingOrInstallment": "R",
+          "specialComment": "18",
+          "status": "12",
+          "statusDate": "10012010",
+          "subscriberCode": "2222222",
+          "subscriberName": "UNVL/CITI",
+          "terms": "REV"
+        },
+        {
+          "accountNumber": "0000000000000000",
+          "accountType": "20",
+          "amount1": "00001267",
+          "amount1Qualifier": "O",
+          "balanceDate": "11282008",
+          "delinquencies30Days": "00",
+          "delinquencies60Days": "00",
+          "delinquencies90to180Days": "00",
+          "derogCounter": "00",
+          "ecoa": "1",
+          "enhancedPaymentData": {
+            "enhancedAccountCondition": "A2",
+            "enhancedAccountType": "20",
+            "enhancedPaymentHistory84": "BCCCCCCCCCCCCCCCCCC",
+            "enhancedPaymentStatus": "11",
+            "enhancedTerms": "018",
+            "originalLoanAmount": "0000001267",
+            "paymentLevelDate": "11012008"
+          },
+          "evaluation": "P",
+          "kob": "FP",
+          "monthsHistory": "19",
+          "openDate": "05112007",
+          "openOrClosed": "C",
+          "paymentHistory": "BCCCCCCCCCCCCCCCCCC",
+          "revolvingOrInstallment": "I",
+          "status": "12",
+          "statusDate": "11012008",
+          "subscriberCode": "2222222",
+          "subscriberName": "AMERICAN GENERAL FINAN",
+          "terms": "018"
+        },
+        {
+          "accountNumber": "000000000000",
+          "accountType": "18",
+          "amount1": "00000226",
+          "amount1Qualifier": "H",
+          "balanceAmount": "00000000",
+          "balanceDate": "05082018",
+          "delinquencies30Days": "01",
+          "delinquencies60Days": "01",
+          "delinquencies90to180Days": "02",
+          "derogCounter": "00",
+          "ecoa": "1",
+          "enhancedPaymentData": {
+            "creditLimitAmount": "UNKNOWN",
+            "enhancedAccountCondition": "A1",
+            "enhancedAccountType": "18",
+            "enhancedPaymentHistory84": "0CCCCCCCCCCCCC4321CCCCCCC",
+            "enhancedPaymentStatus": "39",
+            "enhancedTerms": "REV",
+            "enhancedTermsFrequency": "M",
+            "firstDelinquencyDate": "03012017",
+            "highBalanceAmount": "0000000226",
+            "paymentLevelDate": "04012017",
+            "secondDelinquencyDate": "02012017"
+          },
+          "evaluation": "N",
+          "kob": "BC",
+          "lastPaymentDate": "05052017",
+          "monthsHistory": "25",
+          "openDate": "05022016",
+          "openOrClosed": "O",
+          "paymentHistory": "0CCCCCCCCCCCCC4321CCCCCCC",
+          "revolvingOrInstallment": "R",
+          "status": "39",
+          "statusDate": "04012017",
+          "subscriberCode": "2222222",
+          "subscriberName": "CAP ONE BK",
+          "terms": "REV"
+        },
+        {
+          "accountNumber": "000000000000",
+          "accountType": "18",
+          "amount1": "00001185",
+          "amount1Qualifier": "H",
+          "balanceAmount": "00001245",
+          "balanceDate": "04202018",
+          "delinquencies30Days": "00",
+          "delinquencies60Days": "00",
+          "delinquencies90to180Days": "00",
+          "derogCounter": "00",
+          "ecoa": "1",
+          "enhancedPaymentData": {
+            "creditLimitAmount": "UNKNOWN",
+            "enhancedAccountCondition": "A1",
+            "enhancedAccountType": "18",
+            "enhancedPaymentHistory84": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "enhancedPaymentStatus": "11",
+            "enhancedTerms": "REV",
+            "enhancedTermsFrequency": "M",
+            "highBalanceAmount": "0000001185",
+            "paymentLevelDate": "04012018"
+          },
+          "evaluation": "P",
+          "kob": "BC",
+          "lastPaymentDate": "04072018",
+          "monthlyPaymentAmount": "00000072",
+          "monthlyPaymentType": "S",
+          "monthsHistory": "79",
+          "openDate": "10162011",
+          "openOrClosed": "O",
+          "paymentHistory": "CCCCCCCCCCCCCCCCCCCCCCCCC",
+          "revolvingOrInstallment": "R",
+          "status": "11",
+          "statusDate": "04012018",
+          "subscriberCode": "2222222",
+          "subscriberName": "CAP ONE BK",
+          "terms": "REV"
+        },
+        {
+          "accountNumber": "00000000000000000",
+          "accountType": "07",
+          "amount1": "00000119",
+          "amount1Qualifier": "L",
+          "balanceAmount": "00000000",
+          "balanceDate": "02052015",
+          "delinquencies30Days": "00",
+          "delinquencies60Days": "00",
+          "delinquencies90to180Days": "00",
+          "derogCounter": "00",
+          "ecoa": "1",
+          "enhancedPaymentData": {
+            "creditLimitAmount": "0000000119",
+            "enhancedAccountCondition": "A4",
+            "enhancedAccountType": "07",
+            "enhancedPaymentHistory84": "0000000000000000",
+            "enhancedPaymentStatus": "11",
+            "enhancedTerms": "REV",
+            "highBalanceAmount": "0000000000",
+            "paymentLevelDate": "02012015"
+          },
+          "evaluation": "P",
+          "kob": "QZ",
+          "lastPaymentDate": "12212012",
+          "monthsHistory": "16",
+          "openDate": "06212011",
+          "openOrClosed": "O",
+          "paymentHistory": "0000000000000000",
+          "revolvingOrInstallment": "R",
+          "status": "11",
+          "statusDate": "02012015",
+          "subscriberCode": "2222222",
+          "subscriberName": "FINGERHUT CREDIT ADVAN",
+          "terms": "REV"
+        },
+        {
+          "accountNumber": "00000000",
+          "accountType": "07",
+          "amount1": "00000127",
+          "amount1Qualifier": "L",
+          "amount2": "00000127",
+          "amount2Qualifier": "H",
+          "balanceAmount": "00000000",
+          "balanceDate": "08272008",
+          "delinquencies30Days": "00",
+          "delinquencies60Days": "00",
+          "delinquencies90to180Days": "00",
+          "derogCounter": "00",
+          "ecoa": "1",
+          "enhancedPaymentData": {
+            "creditLimitAmount": "0000000127",
+            "enhancedAccountCondition": "A4",
+            "enhancedAccountType": "07",
+            "enhancedPaymentHistory84": "-------------------------------------",
+            "enhancedPaymentStatus": "11",
+            "enhancedTerms": "REV",
+            "highBalanceAmount": "0000000127",
+            "paymentLevelDate": "07012005"
+          },
+          "evaluation": "P",
+          "kob": "ZR",
+          "lastPaymentDate": "01242001",
+          "monthsHistory": "99",
+          "openDate": "08251993",
+          "openOrClosed": "O",
+          "paymentHistory": "-------------------------",
+          "revolvingOrInstallment": "R",
+          "status": "11",
+          "statusDate": "07012005",
+          "subscriberCode": "2222222",
+          "subscriberName": "ELDER BEERMAN",
+          "terms": "REV"
+        }
+      ],
+      "endTotals": [
+        {
+          "totalSegments": "024",
+          "totalLength": "05195"
+        }
+      ]
+    },
+    {
+      "headerRecord": [
+        {
+          "reportDate": "080619",
+          "reportTime": "062808",
+          "preamble": "TTX2",
+          "versionNo": "07",
+          "mKeywordLength": "13",
+          "mKeywordText": "07162019TEST5",
+          "y2kReportedDate": "08062019"
+        }
+      ],
+      "addressInformation": [
+        {
+          "censusGeoCode": "0067003",
+          "city": "WASHINGTON",
+          "countyCode": "001",
+          "dwellingType": "S",
+          "firstReportedDate": "08232014",
+          "lastReportingSubscriberCode": "2222222",
+          "lastUpdatedDate": "02122018",
+          "source": "7",
+          "state": "DC",
+          "streetName": "10TH",
+          "streetPrefix": "215",
+          "streetSuffix": "ST SE",
+          "timesReported": "00",
+          "zipCode": "200032118"
+        },
+        {
+          "censusGeoCode": "0067003",
+          "city": "WASHINGTON",
+          "countyCode": "001",
+          "dwellingType": "S",
+          "firstReportedDate": "02112008",
+          "lastUpdatedDate": "09102014",
+          "source": "1",
+          "state": "DC",
+          "streetName": "9TH",
+          "streetPrefix": "13",
+          "streetSuffix": "ST SE",
+          "timesReported": "00",
+          "zipCode": "200031333"
+        },
+        {
+          "city": "WILLIAMSBURG",
+          "dwellingType": "S",
+          "firstReportedDate": "08232009",
+          "lastUpdatedDate": "08182014",
+          "source": "1",
+          "state": "VA",
+          "streetName": "CS 4177",
+          "timesReported": "00",
+          "zipCode": "231860001"
+        }
+      ],
+      "consumerIdentity": {
+        "name": [
+          {
+            "firstName": "JUDY",
+            "middleName": "N",
+            "surname": "JAY"
+          }
+        ],
+        "phone": [
+          {
+            "number": "2022101061",
+            "source": "U"
+          },
+          {
+            "number": "2025461806",
+            "source": "U"
+          },
+          {
+            "number": "2025443443",
+            "source": "U"
+          }
+        ]
+      },
+      "employmentInformation": [
+        {
+          "addressFirstLine": "HESPERIA CA",
+          "firstReportedDate": "01112009",
+          "lastUpdatedDate": "09052013",
+          "name": "HESPERIA PARK DIST",
+          "source": "2"
+        },
+        {
+          "firstReportedDate": "12102006",
+          "lastUpdatedDate": "12102006",
+          "name": "HESP PARKS AND R",
+          "source": "2"
+        }
+      ],
+      "fraudShield": [
+        {
+          "addressCount": "0000",
+          "addressDate": "05012019",
+          "addressErrorCode": "0",
+          "fraudShieldIndicators": {
+            "indicator": [
+              "01",
+              "03"
+            ]
+          },
+          "socialCount": "0000",
+          "socialDate": "05012019",
+          "socialErrorCode": "0",
+          "ssnFirstPossibleIssuanceYear": "1961",
+          "ssnLastPossibleIssuanceYear": "1963",
+          "type": "99"
+        }
+      ],
+      "informationalMessage": [
+        {
+          "messageNumber": "57",
+          "messageNumberDetailed": "1300",
+          "messageText": "CLARITY DATA NOT RETRIEVED FOR THE MODEL DUE TO SSN/ITIN MISMATCH"
+        }
+      ],
+      "ofac": {
+        "messageNumber": "1202",
+        "messageText": "OFAC NO RECORD FOUND"
+      },
+      "summaries": [
+        {
+          "summaryType": "Profile Summary",
+          "attributes": [
+            {
+              "id": "disputedAccountsExcluded",
+              "value": "000"
+            },
+            {
+              "id": "publicRecordsCount",
+              "value": "000"
+            },
+            {
+              "id": "installmentBalance",
+              "value": "N/A"
+            },
+            {
+              "id": "realEstateBalance",
+              "value": "N/A"
+            },
+            {
+              "id": "revolvingBalance",
+              "value": "00000060"
+            },
+            {
+              "id": "pastDueAmount",
+              "value": "00000000"
+            },
+            {
+              "id": "monthlyPayment",
+              "value": "00000022"
+            },
+            {
+              "id": "monthlyPaymentPartialFlag"
+            },
+            {
+              "id": "realEstatePayment",
+              "value": "N/A"
+            },
+            {
+              "id": "realEstatePaymentPartialFlag"
+            },
+            {
+              "id": "revolvingAvailablePercent",
+              "value": "099"
+            },
+            {
+              "id": "revolvingAvailablePartialFlag"
+            },
+            {
+              "id": "totalInquiries",
+              "value": "000"
+            },
+            {
+              "id": "inquiriesDuringLast6Months",
+              "value": "000"
+            },
+            {
+              "id": "totalTradeItems",
+              "value": "004"
+            },
+            {
+              "id": "paidAccounts",
+              "value": "000"
+            },
+            {
+              "id": "satisfactoryAccounts",
+              "value": "004"
+            },
+            {
+              "id": "nowDelinquentDerog",
+              "value": "000"
+            },
+            {
+              "id": "wasDelinquentDerog",
+              "value": "000"
+            },
+            {
+              "id": "oldestTradeDate",
+              "value": "04022007"
+            },
+            {
+              "id": "delinquencies30Days",
+              "value": "00"
+            },
+            {
+              "id": "delinquencies60Days",
+              "value": "00"
+            },
+            {
+              "id": "delinquencies90to180Days",
+              "value": "00"
+            },
+            {
+              "id": "derogCounter",
+              "value": "00"
+            }
+          ]
+        }
+      ],
+      "ssn": [
+        {
+          "number": "999999999",
+          "ssnIndicators": "YYYYYYYYY"
+        }
+      ],
+      "tradeline": [
+        {
+          "accountNumber": "0000000000000",
+          "accountType": "07",
+          "amount1": "00000500",
+          "amount1Qualifier": "L",
+          "amount2": "00000034",
+          "amount2Qualifier": "H",
+          "balanceAmount": "00000000",
+          "balanceDate": "04212018",
+          "delinquencies30Days": "00",
+          "delinquencies60Days": "00",
+          "delinquencies90to180Days": "00",
+          "derogCounter": "00",
+          "ecoa": "1",
+          "enhancedPaymentData": {
+            "creditLimitAmount": "0000000500",
+            "enhancedAccountCondition": "A1",
+            "enhancedAccountType": "07",
+            "enhancedPaymentHistory84": "000000000000000000000000000000000000000000000000000000000000000000000000CC",
+            "enhancedPaymentStatus": "11",
+            "enhancedTerms": "REV",
+            "highBalanceAmount": "0000000034",
+            "paymentLevelDate": "04012018"
+          },
+          "evaluation": "P",
+          "kob": "DZ",
+          "lastPaymentDate": "05042012",
+          "monthsHistory": "74",
+          "openDate": "03212012",
+          "openOrClosed": "O",
+          "paymentHistory": "0000000000000000000000000",
+          "revolvingOrInstallment": "R",
+          "status": "11",
+          "statusDate": "04012018",
+          "subscriberCode": "2222222",
+          "subscriberName": "MACYS",
+          "terms": "REV"
+        },
+        {
+          "accountNumber": "000000000000000000",
+          "accountType": "18",
+          "amount1": "00003700",
+          "amount1Qualifier": "L",
+          "balanceAmount": "00000000",
+          "balanceDate": "04102018",
+          "delinquencies30Days": "00",
+          "delinquencies60Days": "00",
+          "delinquencies90to180Days": "00",
+          "derogCounter": "00",
+          "ecoa": "3",
+          "enhancedPaymentData": {
+            "creditLimitAmount": "0000003700",
+            "enhancedAccountCondition": "A1",
+            "enhancedAccountType": "18",
+            "enhancedPaymentHistory84": "0",
+            "enhancedPaymentStatus": "11",
+            "enhancedTerms": "REV",
+            "highBalanceAmount": "0000000000",
+            "paymentLevelDate": "04012018"
+          },
+          "evaluation": "P",
+          "kob": "BC",
+          "monthsHistory": "01",
+          "openDate": "07212008",
+          "openOrClosed": "O",
+          "paymentHistory": "0",
+          "revolvingOrInstallment": "R",
+          "status": "11",
+          "statusDate": "04012018",
+          "subscriberCode": "2222222",
+          "subscriberName": "AMEX",
+          "terms": "REV"
+        },
+        {
+          "accountNumber": "000000000000",
+          "accountType": "18",
+          "amount1": "00004000",
+          "amount1Qualifier": "L",
+          "amount2": "00000718",
+          "amount2Qualifier": "H",
+          "balanceAmount": "00000060",
+          "balanceDate": "03282015",
+          "delinquencies30Days": "00",
+          "delinquencies60Days": "00",
+          "delinquencies90to180Days": "00",
+          "derogCounter": "00",
+          "ecoa": "2",
+          "enhancedPaymentData": {
+            "creditLimitAmount": "0000004000",
+            "enhancedAccountCondition": "A4",
+            "enhancedAccountType": "18",
+            "enhancedPaymentHistory84": "CCCCC00000CCC--C0CCCCC00CCCCCCC0---CCCCCCCCCCC000C0CCCCCCCCCCCCC-CCCCC-CCCCCCCCCCCC0",
+            "enhancedPaymentStatus": "11",
+            "enhancedTerms": "REV",
+            "highBalanceAmount": "0000000718",
+            "paymentLevelDate": "03012015"
+          },
+          "evaluation": "P",
+          "kob": "BC",
+          "lastPaymentDate": "03202015",
+          "monthlyPaymentAmount": "00000022",
+          "monthlyPaymentType": "S",
+          "monthsHistory": "95",
+          "openDate": "04022007",
+          "openOrClosed": "O",
+          "paymentHistory": "CCCCC00000CCC--C0CCCCC00C",
+          "revolvingOrInstallment": "R",
+          "status": "11",
+          "statusDate": "03012015",
+          "subscriberCode": "2222222",
+          "subscriberName": "UNVL/CITI",
+          "terms": "REV"
+        },
+        {
+          "accountNumber": "000000000000000000",
+          "accountType": "18",
+          "amount1": "00000504",
+          "amount1Qualifier": "H",
+          "balanceDate": "12112013",
+          "delinquencies30Days": "00",
+          "delinquencies60Days": "00",
+          "delinquencies90to180Days": "00",
+          "derogCounter": "00",
+          "ecoa": "C",
+          "enhancedPaymentData": {
+            "creditLimitAmount": "UNKNOWN",
+            "enhancedAccountCondition": "A4",
+            "enhancedAccountType": "18",
+            "enhancedPaymentHistory84": "000000000000000000000000000000000000000000000000000000000000000000",
+            "enhancedPaymentStatus": "11",
+            "enhancedTerms": "REV",
+            "highBalanceAmount": "0000000504",
+            "paymentLevelDate": "12012013"
+          },
+          "evaluation": "P",
+          "kob": "BC",
+          "monthsHistory": "66",
+          "openDate": "07012008",
+          "openOrClosed": "O",
+          "paymentHistory": "0000000000000000000000000",
+          "revolvingOrInstallment": "R",
+          "status": "11",
+          "statusDate": "12012013",
+          "subscriberCode": "2222222",
+          "subscriberName": "AMEX",
+          "terms": "REV"
+        }
+      ],
+      "endTotals": [
+        {
+          "totalSegments": "016",
+          "totalLength": "02428"
+        }
+      ]
+    }
+  ]
+}
