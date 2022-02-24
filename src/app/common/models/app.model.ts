@@ -3,5 +3,6 @@ export enum AppRoutes {
     Disclaimers,
     Main,
     DisclaimersRejected,
-    CreditHistory
+    CreditHistory,
+    ProductOfferings
 }

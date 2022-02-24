@@ -1,7 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import {MatTableModule} from '@angular/material/table'
 import { Router } from '@angular/router';
 import { CreditHistory } from '../common/credit.history.model';
+import { AppRoutes } from '../common/models/app.model';
+import { Stack } from '../common/models/stack.model';
 import { Legend } from '../generic-legend/generic-legend.component';
 
 @Component({
@@ -12,10 +14,15 @@ import { Legend } from '../generic-legend/generic-legend.component';
 
 
 export class CreditHistoryComponent implements OnInit {
-
+  @Output() public productOfferings = new EventEmitter();
   constructor(private route: Router) { }
 
   title = 'Credit Score Range';
+  public appRoutesEnum = AppRoutes;
+  public appRoutes = AppRoutes.ProductOfferings;
+  public appRouteStack = new Stack<AppRoutes>();
+  public isBackButtonVisible = false;
+
   legends: Legend[] = [
     { name: '300-550', color: '#D32F2F' },
     { name: '550-600', color: '#F2AF00' },
@@ -59,9 +66,13 @@ export class CreditHistoryComponent implements OnInit {
 
   }
 
-  goToProductOfferings()
+  public goToProductOfferings()
   {
-    this.route.navigateByUrl("credit-history")
+    this.productOfferings.emit();
   }
+
+
+
+
 
 }

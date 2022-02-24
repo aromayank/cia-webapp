@@ -28,6 +28,9 @@ export class AppComponent implements OnInit {
     })
   }
 
+  public visitProductOfferings() {
+    this.addToRouteStack(AppRoutes.ProductOfferings);
+  }
 
   public disclaimersAccepted() {
     this.addToRouteStack(AppRoutes.Main);

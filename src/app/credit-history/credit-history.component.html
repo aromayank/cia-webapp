@@ -1,5 +1,7 @@
 <p>Credit History</p>
 
+<ng-container [ngSwitch]="appRoutes">
+
 <app-credithistory-line-graph>
 
 </app-credithistory-line-graph>
@@ -32,49 +34,10 @@
   [legends]="legends">
 </app-generic-legend>
 
-  <a (click)="goToProductOfferings()" mat-raised-button href="">Product Offerings</a>
+  <button (click)="goToProductOfferings()" mat-raised-button>Product Offerings</button>
 
-  <app-product-offerings></app-product-offerings>
+  <app-product-offerings *ngSwitchCase="appRoutesEnum.ProductOfferings"></app-product-offerings>
 
-  <div class="card text-center">
-    <div class="card-header">Payment History</div>
-    <div class="card-body">
-      <h5 class="card-title">High Impact</h5>
-      <p class="card-text">
-          100%
-          <br>
-       Percentages of payments you have made on time!
-      </p>
-      <a href="#" class="btn btn-primary">View Details</a>
-    </div>
-    <div class="card-footer text-muted">2 days ago</div>
-  </div>
+</ng-container>
 
-  <div class="card text-center">
-    <div class="card-header">Credit Card Usage</div>
-    <div class="card-body">
-      <h5 class="card-title">High Impact</h5>
-      <p class="card-text">
-          16%
-          <br>
-       How much credit you are using compared to your total limit!
-      </p>
-      <a href="#" class="btn btn-primary">View Details</a>
-    </div>
-    <div class="card-footer text-muted">1 day ago</div>
-  </div>
 
-  <div class="card text-center">
-    <div class="card-header">Derogatory Mark</div>
-    <div class="card-body">
-      <h5 class="card-title">High Impact</h5>
-      <p class="card-text">
-          0
-          <br>
-      Collections, tax liens, banktrupcies, or civil judgement on your report!
-      </p>
-      <a href="#" class="btn btn-primary">View Details</a>
-    </div>
-    <div class="card-footer text-muted">10 days ago</div>
-  </div>
-  
